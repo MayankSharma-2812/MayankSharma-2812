@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=2500&pause=600&color=7F9CF5&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Mayank+Sharma+👋;Full-Stack+Developer+%7C+Problem+Solver;Building+Real-World+Systems;Learning+by+Doing+%26+Breaking" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=600&color=7F9CF5&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Mayank+Sharma+👋;Full-Stack+Developer+%7C+Problem+Solver;Building+Real-World+Systems;Learning+by+Doing+%26+Breaking" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
+  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/master/static/img/wave.svg" width="100%"/>
 </p>
 
 <h2 align="center">🧠 About Me</h2>
 
 <p align="center">
-I’m a <b>Full-Stack Developer & problem solver</b> who enjoys building systems that actually work in the real world.<br/>
-I focus on <b>clean logic, scalable backend, and UI that feels intentional</b>.
+I’m a <b>Full-Stack Developer & problem solver</b> who enjoys building systems that work in the real world.<br/>
+Focused on <b>clean logic, scalable backend, and intuitive UI</b>.
 </p>
 
 <p align="center">
 🎓 B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC<br/>
 🏆 SIH 2025 Participant | IT Wizard Awardee<br/>
-💡 I learn by building, breaking, and fixing things
+💡 Learning by building, breaking, and fixing
 </p>
 
 ---
@@ -24,14 +24,10 @@ I focus on <b>clean logic, scalable backend, and UI that feels intentional</b>.
 <h2 align="center">⚙️ Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,git,github&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,git,github&perline=6" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=4"/>
-</p>
-
----
+<hr/>
 
 <h2 align="center">🚀 Featured Projects</h2>
 
@@ -72,8 +68,7 @@ Expense tracking & visualization system<br/>
 
 </td>
 
-<td width="50%">
-</td>
+<td width="50%"></td>
 </tr>
 </table>
 
@@ -82,15 +77,11 @@ Expense tracking & visualization system<br/>
 <h2 align="center">📊 GitHub Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MayankSharma-2812&theme=darkhub&row=1&column=6" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight" />
 </p>
 
 ---
@@ -117,5 +108,5 @@ Expense tracking & visualization system<br/>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
+  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/master/static/img/wave.svg" width="100%"/>
 </p>
