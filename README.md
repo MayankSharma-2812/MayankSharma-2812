@@ -1,57 +1,51 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2500&pause=600&color=7F9CF5&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Mayank+Sharma+👋;Full-Stack+Developer+%7C+Problem+Solver;Building+Real-World+Systems;Learning+by+Doing+%26+Breaking" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Mayank+Sharma+👋;Full-Stack+Developer;Problem+Solver+%26+Builder;B.Tech+CSE+@+Kalvium+x+JECRC" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/master/static/img/wave.svg" width="100%"/>
-</p>
-
-<h2 align="center">🧠 About Me</h2>
-
-<p align="center">
-I’m a <b>Full-Stack Developer & problem solver</b> who enjoys building systems that work in the real world.<br/>
-Focused on <b>clean logic, scalable backend, and intuitive UI</b>.
-</p>
-
-<p align="center">
-🎓 B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC<br/>
-🏆 SIH 2025 Participant | IT Wizard Awardee<br/>
-💡 Learning by building, breaking, and fixing
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=120&section=header"/>
 </p>
 
 ---
 
-<h2 align="center">⚙️ Tech Stack</h2>
+### 🧠 About Me
+I’m a **Full-Stack Developer & problem solver** who enjoys building real-world systems with clean logic, scalable backend, and intuitive UI.  
+I learn by building, breaking, and fixing things — repeatedly.
 
+- 🎓 B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC  
+- 🏆 SIH 2025 Participant | IT Wizard Awardee  
+- 💡 Interested in systems that solve real problems  
+
+---
+
+### ⚡ Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,git,github&perline=6" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,git,github&theme=dark" />
 </p>
 
-<hr/>
+---
 
-<h2 align="center">🚀 Featured Projects</h2>
-
+### 🚀 Featured Projects
 <table>
 <tr>
 <td width="50%">
 
-<h3>🔗 LifeLink</h3>
-Blockchain-based disaster relief tracking system<br/>
-✔ Transparency & accountability<br/>
-✔ Smart India Hackathon 2025  
+#### 🔹 LifeLink
+Blockchain-based disaster relief tracking system  
+✔ Transparency & accountability  
+✔ SIH 2025 Project  
 
-<b>Tech:</b> Node.js, Express, Solidity  
+**Tech:** Node.js, Express, Solidity  
 
 </td>
-
 <td width="50%">
 
-<h3>🎬 Squad 124 Portfolio</h3>
-Netflix-inspired team portfolio website<br/>
-✔ Responsive UI<br/>
-✔ JavaScript filtering  
+#### 🔹 Squad 124 Portfolio
+Netflix-inspired team portfolio website  
+✔ Responsive UI  
+✔ JS filtering  
 
-<b>Tech:</b> HTML, CSS, JavaScript  
+**Tech:** HTML, CSS, JavaScript  
 
 </td>
 </tr>
@@ -59,45 +53,40 @@ Netflix-inspired team portfolio website<br/>
 <tr>
 <td width="50%">
 
-<h3>💸 AI Finance Tracker</h3>
-Expense tracking & visualization system<br/>
-✔ Python backend<br/>
+#### 🔹 AI Finance Tracker
+Expense tracking & visualization tool  
+✔ Python backend  
 ✔ Clean UI  
 
-<b>Tech:</b> Python, Flask  
+**Tech:** Python, Flask  
 
 </td>
-
-<td width="50%"></td>
+<td width="50%">
+</td>
 </tr>
 </table>
 
 ---
 
-<h2 align="center">📊 GitHub Activity</h2>
-
+### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight" />
-</p>
-
----
-
-<h2 align="center">🌱 Currently Leveling Up</h2>
-
-<p align="center">
-🔹 Backend architecture<br/>
-🔹 Writing cleaner, scalable code<br/>
-🔹 Internship & hackathon preparation
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-<h2 align="center">🤝 Let’s Connect</h2>
+### 🌱 Currently Working On
+- Improving backend architecture  
+- Writing cleaner, scalable code  
+- Preparing for internships & hackathons  
 
+---
+
+### 🤝 Let’s Connect
 <p align="center">
   <a href="https://linkedin.com/in/mayank-sharma-7b277b312">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -108,5 +97,5 @@ Expense tracking & visualization system<br/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/master/static/img/wave.svg" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:203a43,100:0f2027&height=120&section=footer"/>
 </p>
