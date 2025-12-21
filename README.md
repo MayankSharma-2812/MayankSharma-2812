@@ -72,11 +72,6 @@ Expense tracking & visualization tool
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true" />
-</p>
-
 ---
 
 ### 🌱 Currently Working On
