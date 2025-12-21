@@ -1,49 +1,101 @@
-<h1 align="center">Hey, I'm Mayank 👋</h1>
-<h3 align="center">Full-Stack Developer | Problem Solver | B.Tech CSE @ Kalvium x JECRC</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Mayank+Sharma+👋;Full-Stack+Developer;Problem+Solver+%26+Builder;B.Tech+CSE+@+Kalvium+x+JECRC" />
+</p>
 
 <p align="center">
-  I build real-world products with clean logic, scalable backend, and intuitive UI.
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=120&section=header"/>
 </p>
 
 ---
 
-### 🚀 About Me
-- 🎓 B.Tech CSE (Software Product Engineering) at Kalvium x JECRC University  
-- 💻 Full-stack developer with strong frontend + solid backend skills  
-- 🧠 Problem solver who enjoys turning ideas into working systems  
-- 🏆 SIH 2025 participant | IT Wizard Awardee  
+### 🧠 About Me
+I’m a **Full-Stack Developer & problem solver** who enjoys building real-world systems with clean logic, scalable backend, and intuitive UI.  
+I learn by building, breaking, and fixing things — repeatedly.
+
+- 🎓 B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC  
+- 🏆 SIH 2025 Participant | IT Wizard Awardee  
+- 💡 Interested in systems that solve real problems  
 
 ---
 
-### 🛠️ Tech Stack
-**Frontend:** HTML, CSS, JavaScript, React  
-**Backend:** Node.js, Express  
-**Languages:** C, C++, Python, JavaScript  
-**Database:** MySQL  
-**Blockchain:** Solidity (Beginner)  
-**Tools:** Git, GitHub  
+### ⚡ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,git,github&theme=dark" />
+</p>
 
 ---
 
-### 📌 Featured Projects
-🔹 **LifeLink** – Blockchain-based Disaster Relief Tracking  
-→ Transparent fund & resource tracking system (SIH 2025)  
-→ Node.js, Express, Solidity  
+### 🚀 Featured Projects
+<table>
+<tr>
+<td width="50%">
 
-🔹 **Squad 124 – Team Portfolio Website**  
-→ Netflix-inspired responsive portfolio  
-→ HTML, CSS, JavaScript  
+#### 🔹 LifeLink
+Blockchain-based disaster relief tracking system  
+✔ Transparency & accountability  
+✔ SIH 2025 Project  
 
-🔹 **AI Finance Tracker**  
-→ Expense tracking & visualization app  
-→ Python, Flask  
+**Tech:** Node.js, Express, Solidity  
+
+</td>
+<td width="50%">
+
+#### 🔹 Squad 124 Portfolio
+Netflix-inspired team portfolio website  
+✔ Responsive UI  
+✔ JS filtering  
+
+**Tech:** HTML, CSS, JavaScript  
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 🔹 AI Finance Tracker
+Expense tracking & visualization tool  
+✔ Python backend  
+✔ Clean UI  
+
+**Tech:** Python, Flask  
+
+</td>
+<td width="50%">
+</td>
+</tr>
+</table>
 
 ---
 
-### 📊 What I Care About
-- Writing readable, maintainable code  
-- Solving real problems, not toy apps  
-- Learning by building  
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
 
-📫 **Let’s connect:**  
-LinkedIn: https://linkedin.com/in/mayank-sharma-7b277b312
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 🌱 Currently Working On
+- Improving backend architecture  
+- Writing cleaner, scalable code  
+- Preparing for internships & hackathons  
+
+---
+
+### 🤝 Let’s Connect
+<p align="center">
+  <a href="https://linkedin.com/in/mayank-sharma-7b277b312">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:mayank.sharma.s.124@kalvium.community">
+    <img src="https://img.shields.io/badge/Email-161616?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:203a43,100:0f2027&height=120&section=footer"/>
+</p>
