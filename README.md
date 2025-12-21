@@ -16,32 +16,27 @@
 
 <br/>
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
-
 ## 🙋‍♂️ About Me
 
-```javascript
-const mayank = {
-    location: "Pilāni, Rajasthan 🇮🇳",
-    education: "B.Tech CSE @ Kalvium x JECRC",
-    role: "Full-Stack Developer",
-    achievements: [
-        "🏆 SIH 2025 Participant",
-        "🎖️ IT Wizard Awardee"
-    ],
-    mindset: "Learn → Build → Break → Fix → Repeat 🔄",
-    currentMission: "Building scalable systems 🚀"
-};
-```
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+
+**👨‍💻 Who Am I?**
+
+I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
+
+🎓 **Education:** B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC  
+🏆 **Achievements:** SIH 2025 Participant | IT Wizard Awardee  
+💭 **Philosophy:** Learn → Build → Break → Fix → Repeat 🔄  
+🚀 **Mission:** Building scalable systems that make an impact
 
 <br clear="right"/>
 
-### ⚡ Quick Highlights
+### ⚡ What I Do
 
-- 🔨 Building **production-ready applications** that solve real problems
+- 🔨 Build **production-ready applications** that solve real problems
 - 🧠 Focus on **clean architecture** & **scalable backend systems**
-- 🎯 Creating **intentional UIs** with great user experience
-- 📚 Learning through **hands-on projects** and experimentation
+- 🎯 Create **intentional UIs** with great user experience
+- 📚 Learn through **hands-on projects** and experimentation
 - 🌟 Open to **internships** and **collaborative projects**
 
 <br/>
