@@ -1,117 +1,361 @@
+<div align="center">
+
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Mayank%20Sharma&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Full-Stack%20Developer%20|%20Problem%20Solver%20|%20Builder&descAlignY=55&descSize=20)
+
+</div>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Mayank+Sharma+👋;Full-Stack+Developer;Problem+Solver+%26+Builder;Learning+by+Building+%26+Breaking" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Mayank+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%92%BB;Building+Real-World+Systems+%F0%9F%9A%80;Learning+by+Doing+%26+Breaking+%F0%9F%94%A7;Clean+Code+Enthusiast+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/master/static/img/wave.svg" width="100%"/>
+  <img src="https://komarev.com/ghpvc/?username=MayankSharma-2812&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/MayankSharma-2812?label=Followers&style=for-the-badge&color=764ba2&logo=github" alt="GitHub Followers" />
+  <img src="https://img.shields.io/badge/Focus-Backend%20Architecture-667eea?style=for-the-badge" alt="Focus" />
 </p>
 
-<h2 align="center">🧠 About Me</h2>
+<br/>
 
-<p align="center">
-I’m a <b>Full-Stack Developer & problem solver</b> who enjoys building real-world systems.<br/>
-I care about <b>clean logic, scalable backend, and intentional UI</b>.
-</p>
+## 🙋‍♂️ About Me
 
-<p align="center">
-🎓 B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC<br/>
-🏆 Smart India Hackathon 2025 Participant | IT Wizard Awardee<br/>
-💡 Learn → Build → Break → Fix → Repeat
-</p>
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
 
----
+**👨‍💻 Who Am I?**
 
-<h2 align="center">⚙️ Tech Stack</h2>
+I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,git,github&perline=6" />
-</p>
+🎓 **Education:** B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC  
+🏆 **Achievements:** SIH 2025 Participant | IT Wizard Awardee  
+💭 **Philosophy:** Learn → Build → Break → Fix → Repeat 🔄  
+🚀 **Mission:** Building scalable systems that make an impact
 
-<hr/>
+<br clear="right"/>
 
-<h2 align="center">🚀 Featured Projects</h2>
+### ⚡ What I Do
+
+- 🔨 Build **production-ready applications** that solve real problems
+- 🧠 Focus on **clean architecture** & **scalable backend systems**
+- 🎯 Create **intentional UIs** with great user experience
+- 📚 Learn through **hands-on projects** and experimentation
+- 🌟 Open to **internships** and **collaborative projects**
+
+<br/>
+
+<div align="center">
+
+## 🛠️ Tech Arsenal
 
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
+<br>HTML5
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+<br>CSS3
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" />
+<br>JavaScript
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+<br>React
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+<br>Node.js
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
+<br>Express
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+<br>Python
+</td>
+</tr>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+<br>C++
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+<br>MySQL
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+<br>Git
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+<br>GitHub
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+<br>VS Code
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+<br>Postman
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=solidity" width="48" height="48" alt="Solidity" />
+<br>Solidity
+</td>
+</tr>
+</table>
 
-<h3>🔗 LifeLink</h3>
-Blockchain-based disaster relief tracking system<br/>
-✔ Transparency & accountability<br/>
-✔ Smart India Hackathon 2025  
+</div>
 
-<b>Tech:</b> Node.js, Express, Solidity  
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🔗 LifeLink</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Smart_India_Hackathon_2025-FF6B6B?style=for-the-badge" />
+
+<br/><br/>
+
+**Blockchain-based Disaster Relief Tracker**
+
+Transparent fund tracking system for disaster management using blockchain technology.
+
+<br/>
+
+**🎯 Key Features:**
+- Smart contract integration
+- Real-time relief monitoring  
+- Transparent accountability
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+
+</div>
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%">
+<h3 align="center">🎬 Squad 124 Portfolio</h3>
 
-<h3>🎬 Squad 124 Portfolio</h3>
-Netflix-inspired team portfolio website<br/>
-✔ Responsive UI<br/>
-✔ JavaScript filtering  
+<div align="center">
 
-<b>Tech:</b> HTML, CSS, JavaScript  
+<img src="https://img.shields.io/badge/Netflix_Inspired-E50914?style=for-the-badge" />
+
+<br/><br/>
+
+**Dynamic Team Portfolio Website**
+
+Modern team showcase with Netflix-inspired UI and smooth interactions.
+
+<br/>
+
+**🎯 Key Features:**
+- Fully responsive design
+- JavaScript filtering system
+- Smooth animations
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</div>
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-<h3>💸 AI Finance Tracker</h3>
-Expense tracking & visualization tool<br/>
-✔ Python backend<br/>
-✔ Clean UI  
+<h3 align="center">💸 AI Finance Tracker</h3>
 
-<b>Tech:</b> Python, Flask  
+<div align="center">
+
+<img src="https://img.shields.io/badge/Smart_Analytics-4CAF50?style=for-the-badge" />
+
+<br/><br/>
+
+**Intelligent Expense Management**
+
+Track and visualize your expenses with AI-powered insights.
+
+<br/>
+
+**🎯 Key Features:**
+- Expense categorization
+- Visual analytics dashboard
+- Clean intuitive UI
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+
+</div>
 
 </td>
+<td width="50%" valign="top">
 
-<td width="50%"></td>
+<h3 align="center">🔜 More Coming Soon</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/In_Development-667EEA?style=for-the-badge" />
+
+<br/><br/>
+
+**Currently Building:**
+
+- 🏗️ Scalable backend systems
+- 🧪 Experimental projects
+- 🌐 Open-source contributions
+
+<br/>
+
+**Stay tuned for:**
+- Microservices architecture
+- Real-time applications
+- Production-ready tools
+
+</div>
+
+</td>
 </tr>
 </table>
 
----
+</div>
 
-<h2 align="center">📊 GitHub Stats</h2>
+<br/>
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=MayankSharma-2812&theme=react&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=764ba2" />
-</p>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankSharma-2812&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=6" />
-</p>
+## 📊 GitHub Statistics
 
----
+<div align="center">
 
-<h2 align="center">🌱 Currently Leveling Up</h2>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://streak-stats.demolab.com?user=MayankSharma-2812&theme=react&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=764ba2" />
 
-<p align="center">
-🔹 Backend architecture<br/>
-🔹 Writing cleaner, scalable code<br/>
-🔹 Internship & hackathon preparation
-</p>
+<br/><br/>
 
----
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankSharma-2812&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=MayankSharma-2812&bg_color=0D1117&color=667eea&line=764ba2&point=c9d1d9&area=true&hide_border=true" />
 
-<h2 align="center">🤝 Let’s Connect</h2>
+<br/><br/>
 
-<p align="center">
-  <a href="https://linkedin.com/in/mayank-sharma-7b277b312">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:mayank.sharma.s.124@kalvium.community">
-    <img src="https://img.shields.io/badge/Email-161616?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+<img src="https://github-profile-trophy.vercel.app/?username=MayankSharma-2812&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" width="100%" />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/master/static/img/wave.svg" width="100%"/>
-</p>
+</div>
 
-<p align="center">
-  ⭐ If you like my work, consider starring a repo!
-</p>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+<img align="right" alt="Learning" width="350" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
+
+## 🌱 Currently Leveling Up
+
+**🎯 Main Focus Areas:**
+
+- **Backend Architecture**
+  - Microservices patterns
+  - RESTful API design
+  - Database optimization
+
+- **Code Quality**
+  - Clean code principles
+  - Design patterns
+  - Test-driven development
+
+- **Career Growth**
+  - System design prep
+  - Building production apps
+  - Open source contributions
+
+<br clear="right"/>
+
+**📈 2025 Goals:**
+- ✨ Land a meaningful internship
+- 🚀 Ship 5+ production-ready projects
+- 🤝 Contribute to major open-source
+- 📚 Master scalable architectures
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🤝 Let's Connect & Collaborate
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200" />
+
+<br/><br/>
+
+**I'm actively looking for:**
+
+🎯 Internship opportunities in Full-Stack Development  
+🤝 Collaboration on meaningful tech projects  
+💡 Learning from experienced developers  
+
+<br/>
+
+**Let's build something amazing together!**
+
+<br/>
+
+<a href="https://linkedin.com/in/mayank-sharma-7b277b312">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:mayank.sharma.s.124@kalvium.community">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/MayankSharma-2812">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+**💬 "Code that works > Code that looks good"**
+
+<br/>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+<div align="center">
+
+### 🌟 If you find my work interesting, feel free to star some repositories!
+
+<img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="200" />
+
+</div>
+
+<br/>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=150&section=footer&animation=twinkling)
