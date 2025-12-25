@@ -263,7 +263,7 @@ Track and visualize your expenses with AI-powered insights.
 <br/><br/>
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankSharma-2812&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=MayankSharma-2812&bg_color=0D1117&color=667eea&line=764ba2&point=c9d1d9&area=true&hide_border=true" />
+<img width="49%" src="https://github-contributor-stats.vercel.app/api?username=MayankSharma-2812&limit=5&theme=dark&combine_all_yearly_contributions=true" />
 
 <br/><br/>
 
