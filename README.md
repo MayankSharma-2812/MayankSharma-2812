@@ -257,26 +257,17 @@ Track and visualize your expenses with AI-powered insights.
 
 <div align="center">
 
-<a href="https://github.com/MayankSharma-2812">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MayankSharma-2812&layout=compact&langs_count=8&theme=algolia&hide_border=true"/>
-</a>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://streak-stats.demolab.com?user=MayankSharma-2812&theme=react&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=764ba2" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=MayankSharma-2812&theme=highcontrast&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=667EEA&ring=667EEA&fire=764BA2&currStreakLabel=764BA2&sideLabels=667EEA&currStreakNum=C9D1D9&dates=9CA3AF&sideNums=C9D1D9" width="60%" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankSharma-2812&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=MayankSharma-2812&bg_color=0D1117&color=667eea&line=764ba2&point=c9d1d9&area=true&hide_border=true" />
 
 <br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MayankSharma-2812&theme=github_dark" width="100%" />
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MayankSharma-2812/MayankSharma-2812/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MayankSharma-2812/MayankSharma-2812/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MayankSharma-2812/MayankSharma-2812/output/github-contribution-grid-snake.svg">
-</picture>
+<img src="https://github-profile-trophy.vercel.app/?username=MayankSharma-2812&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" width="100%" />
 
 </div>
 
