@@ -257,17 +257,15 @@ Track and visualize your expenses with AI-powered insights.
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://streak-stats.demolab.com?user=MayankSharma-2812&theme=react&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=764ba2" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=radical&hide_border=true&background=0D1117&stroke=667EEA&ring=667EEA&fire=764BA2&currStreakLabel=764BA2" />
 
 <br/><br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankSharma-2812&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=MayankSharma-2812&bg_color=0D1117&color=667eea&line=764ba2&point=c9d1d9&area=true&hide_border=true" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=MayankSharma-2812&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" width="100%" />
+**📈 2024-2025 Highlights:**
+- 🎯 Participated in Smart India Hackathon 2025
+- 🏆 IT Wizard Awardee
+- 💻 Building production-ready applications
+- 🚀 Growing in backend architecture & system design
 
 </div>
 
