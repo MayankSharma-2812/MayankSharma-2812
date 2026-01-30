@@ -82,6 +82,10 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 <br>C++
 </td>
 <td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
+<br>C
+</td>
+<td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
 <br>MySQL
 </td>
@@ -101,12 +105,42 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
 <br>Postman
 </td>
+</tr>
+<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=solidity" width="48" height="48" alt="Solidity" />
 <br>Solidity
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
+<br>WordPress
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+<br>Kali Linux
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy" />
+<br>NumPy
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" />
+<br>Pandas
+</td>
+<td align="center" width="96">
+<img src="https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png" width="48" height="48" alt="Matplotlib" />
+<br>Matplotlib
+</td>
+<td align="center" width="96">
+<img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" width="48" height="48" alt="AI" />
+<br>Prompt Eng.
+</td>
 </tr>
 </table>
+
+**🔐 Cybersecurity:** WiFi Security & Penetration Testing (Kali Linux)  
+**📊 Data Visualization:** Matplotlib, Seaborn (Beginner)  
+**🤖 AI Tools:** Prompt Engineering & LLM Optimization
 
 </div>
 
