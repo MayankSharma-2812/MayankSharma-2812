@@ -156,6 +156,39 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 <tr>
 <td width="50%" valign="top">
 
+<h3 align="center">🤖 AI Dataset Quality Inspector</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Applied_AI-FF6B35?style=for-the-badge" />
+
+<br/><br/>
+
+**End-to-End ML Dataset Monitoring Platform**
+
+AI-driven system for detecting data quality issues before they break production models.
+
+<br/>
+
+**🎯 Key Features:**
+- Missing data & bias detection
+- Distribution drift analysis  
+- Research-validated metrics
+- Interactive visual dashboard
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
 <h3 align="center">🔗 LifeLink</h3>
 
 <div align="center">
@@ -186,6 +219,9 @@ Transparent fund tracking system for disaster management using blockchain techno
 </div>
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">🎬 Squad 124 Portfolio</h3>
@@ -218,9 +254,6 @@ Modern team showcase with Netflix-inspired UI and smooth interactions.
 </div>
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">💸 AI Finance Tracker</h3>
@@ -248,32 +281,6 @@ Track and visualize your expenses with AI-powered insights.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">🔜 More Coming Soon</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/In_Development-667EEA?style=for-the-badge" />
-
-<br/><br/>
-
-**Currently Building:**
-
-- 🏗️ Scalable backend systems
-- 🧪 Experimental projects
-- 🌐 Open-source contributions
-
-<br/>
-
-**Stay tuned for:**
-- Microservices architecture
-- Real-time applications
-- Production-ready tools
 
 </div>
 
