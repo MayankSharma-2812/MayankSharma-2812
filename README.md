@@ -156,6 +156,40 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 <tr>
 <td width="50%" valign="top">
 
+<h3 align="center">🔥 AI Profile Roaster</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/BRUTALLY_HONEST_AI-FF4500?style=for-the-badge" />
+
+<br/><br/>
+
+**AI-Powered Career Feedback Tool**
+
+Unfiltered AI system that analyzes resumes and LinkedIn profiles to deliver brutally honest roasts with actionable suggestions.
+
+<br/>
+
+**🎯 Key Features:**
+- Brutal AI-powered career roasts
+- Actionable improvement suggestions
+- Resume & LinkedIn profile analysis
+- PDF, DOCX, and text input support
+- Real-time analysis in under 3 seconds
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_AI-FF6B35?style=flat-square&logo=ai&logoColor=white)
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
 <h3 align="center">🤖 AI Dataset Quality Inspector</h3>
 
 <div align="center">
@@ -187,6 +221,9 @@ AI-driven system for detecting data quality issues before they break production 
 </div>
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">🔗 LifeLink</h3>
@@ -219,9 +256,6 @@ Transparent fund tracking system for disaster management using blockchain techno
 </div>
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">🎬 Squad 124 Portfolio</h3>
@@ -254,6 +288,9 @@ Modern team showcase with Netflix-inspired UI and smooth interactions.
 </div>
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">💸 AI Finance Tracker</h3>
@@ -283,6 +320,9 @@ Track and visualize your expenses with AI-powered insights.
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
 </div>
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
