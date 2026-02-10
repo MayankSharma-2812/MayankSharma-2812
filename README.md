@@ -324,6 +324,40 @@ Track and visualize your expenses with AI-powered insights.
 </td>
 <td width="50%" valign="top">
 
+<h3 align="center">📊 GitHub Repo Analyzer</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Production_Ready-667EEA?style=for-the-badge" />
+
+<br/><br/>
+
+**Repository Analysis Platform**
+
+Full-stack app analyzing GitHub repos with modern glassmorphism UI and production-level architecture.
+
+<br/>
+
+**🎯 Key Features:**
+- Modern glassmorphism design
+- Structured repository insights
+- Progressive Web App ready
+- SEO-optimized with meta tags
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+<br/>
+
+**🔗 [Live Demo](https://github-repo-analyzer-by-mayank.vercel.app/)**
+
+</div>
+
 </td>
 </tr>
 </table>
