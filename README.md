@@ -8,13 +8,75 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Mayank+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%92%BB;Building+Real-World+Systems+%F0%9F%9A%80;Learning+by+Doing+%26+Breaking+%F0%9F%94%A7;Clean+Code+Enthusiast+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
-<p align="center">
+<p align="center">  
   <img src="https://komarev.com/ghpvc/?username=MayankSharma-2812&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/MayankSharma-2812?label=Followers&style=for-the-badge&color=764ba2&logo=github" alt="GitHub Followers" />
   <img src="https://img.shields.io/badge/Focus-Backend%20Architecture-667eea?style=for-the-badge" alt="Focus" />
 </p>
 
 <br/>
+
+## 🌍 Open Source Contributions
+
+<div align="center">
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+<h3 align="center">🔧 sktime / skpro Contributor</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/OPEN_SOURCE-4CAF50?style=for-the-badge" />
+
+<br/><br/>
+
+**Contributor to the sktime ecosystem, improving code quality and developer experience in production-grade machine learning libraries.**
+
+Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows.
+
+<br/>
+
+**🎯 Key Contributions:**
+- Fixed grammar and clarity in validation error messages across multiple modules
+- Improved utility function documentation and typing for better maintainability
+- Identified issues and submitted fixes following project contribution guidelines
+- Successfully merged pull requests reviewed by project maintainers
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open_Source-000000?style=flat-square&logo=github&logoColor=white)
+
+<br/>
+
+**🔗 Pull Requests:**
+- [PR #833 - Grammar and clarity fixes](https://github.com/sktime/skpro/pull/833)
+- [PR #813 - Documentation improvements](https://github.com/sktime/skpro/pull/813)
+
+<br/>
+
+**✨ Impact:**
+- Multiple Pull Requests merged into production codebase
+- Contributions reviewed by maintainers of the project
+- Improved developer experience and documentation clarity
+
+</div>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🙋‍♂️ About Me
 
@@ -291,37 +353,6 @@ Modern team showcase with Netflix-inspired UI and smooth interactions.
 </tr>
 
 <tr>
-<td width="50%" valign="top">
-
-<h3 align="center">💸 AI Finance Tracker</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Smart_Analytics-4CAF50?style=for-the-badge" />
-
-<br/><br/>
-
-**Intelligent Expense Management**
-
-Track and visualize your expenses with AI-powered insights.
-
-<br/>
-
-**🎯 Key Features:**
-- Expense categorization
-- Visual analytics dashboard
-- Clean intuitive UI
-
-<br/>
-
-**⚙️ Tech Stack:**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-</div>
-
-</td>
 <td width="50%" valign="top">
 
 <h3 align="center">📊 GitHub Repo Analyzer</h3>
