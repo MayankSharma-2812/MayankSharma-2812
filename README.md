@@ -16,66 +16,6 @@
 
 <br/>
 
-## 🌍 Open Source Contributions
-
-<div align="center">
-
-<table>
-<tr>
-<td width="100%" valign="top">
-
-<h3 align="center">🔧 sktime / skpro Contributor</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/OPEN_SOURCE-4CAF50?style=for-the-badge" />
-
-<br/><br/>
-
-**Contributor to the sktime ecosystem, improving code quality and developer experience in production-grade machine learning libraries.**
-
-Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows.
-
-<br/>
-
-**🎯 Key Contributions:**
-- Fixed grammar and clarity in validation error messages across multiple modules
-- Improved utility function documentation and typing for better maintainability
-- Identified issues and submitted fixes following project contribution guidelines
-- Successfully merged pull requests reviewed by project maintainers
-
-<br/>
-
-**⚙️ Tech Stack:**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open_Source-000000?style=flat-square&logo=github&logoColor=white)
-
-<br/>
-
-**🔗 Pull Requests:**
-- [PR #833 - Grammar and clarity fixes](https://github.com/sktime/skpro/pull/833)
-- [PR #813 - Documentation improvements](https://github.com/sktime/skpro/pull/813)
-
-<br/>
-
-**✨ Impact:**
-- Multiple Pull Requests merged into production codebase
-- Contributions reviewed by maintainers of the project
-- Improved developer experience and documentation clarity
-
-</div>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🙋‍♂️ About Me
@@ -218,7 +158,45 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">🔥 AI Profile Roaster</h3>
+<h3 align="center">� sktime / skpro Contributor</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/OPEN_SOURCE-4CAF50?style=for-the-badge" />
+
+<br/><br/>
+
+**Contributor to the sktime ecosystem, improving code quality and developer experience in production-grade machine learning libraries.**
+
+Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows.
+
+<br/>
+
+**🎯 Key Contributions:**
+- Fixed grammar and clarity in validation error messages across multiple modules
+- Improved utility function documentation and typing for better maintainability
+- Successfully merged pull requests reviewed by project maintainers
+
+<br/>
+
+**⚙️ Tech Stack:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+<br/>
+
+**🔗 Pull Requests:**
+- [PR #833](https://github.com/sktime/skpro/pull/833)
+- [PR #813](https://github.com/sktime/skpro/pull/813)
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">�🔥 AI Profile Roaster</h3>
 
 <div align="center">
 
