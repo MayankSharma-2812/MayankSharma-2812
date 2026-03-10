@@ -158,7 +158,7 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">� sktime / skpro Contributor</h3>
+<h3 align="center">🧠 sktime / skpro Contributor</h3>
 
 <div align="center">
 
@@ -166,20 +166,21 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 
 <br/><br/>
 
-**Contributor to the sktime ecosystem, improving code quality and developer experience in production-grade machine learning libraries.**
+Contributor to the **sktime ecosystem**, improving code quality and developer experience in production-grade machine learning libraries.
 
 Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows.
 
 <br/>
 
-**🎯 Key Contributions:**
-- Fixed grammar and clarity in validation error messages across multiple modules
-- Improved utility function documentation and typing for better maintainability
-- Successfully merged pull requests reviewed by project maintainers
+<b>🎯 Key Contributions</b>
+
+- Fixed grammar and clarity in validation error messages
+- Improved utility function documentation and typing
+- Successfully merged pull requests reviewed by maintainers
 
 <br/>
 
-**⚙️ Tech Stack:**
+<b>⚙️ Tech Stack</b>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
@@ -187,16 +188,18 @@ Worked on real issues, submitted pull requests, and collaborated with maintainer
 
 <br/>
 
-**🔗 Pull Requests:**
-- [PR #833](https://github.com/sktime/skpro/pull/833)
-- [PR #813](https://github.com/sktime/skpro/pull/813)
+<b>🔗 Pull Requests</b>
+
+- https://github.com/sktime/skpro/pull/833  
+- https://github.com/sktime/skpro/pull/813
 
 </div>
 
 </td>
+
 <td width="50%" valign="top">
 
-<h3 align="center">�🔥 AI Profile Roaster</h3>
+<h3 align="center">🔥 AI Profile Roaster</h3>
 
 <div align="center">
 
@@ -204,30 +207,32 @@ Worked on real issues, submitted pull requests, and collaborated with maintainer
 
 <br/><br/>
 
-**AI-Powered Career Feedback Tool**
-
-Unfiltered AI system that analyzes resumes and LinkedIn profiles to deliver brutally honest roasts with actionable suggestions.
+AI-powered system that analyzes resumes and LinkedIn profiles and gives brutally honest career feedback.
 
 <br/>
 
-**🎯 Key Features:**
-- Brutal AI-powered career roasts
+<b>🎯 Features</b>
+
+- AI career roast generator
+- Resume & LinkedIn analysis
 - Actionable improvement suggestions
-- Resume & LinkedIn profile analysis
-- PDF, DOCX, and text input support
-- Real-time analysis in under 3 seconds
+- PDF, DOCX, and text support
 
 <br/>
 
-**⚙️ Tech Stack:**
+<b>⚙️ Tech Stack</b>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_AI-FF6B35?style=flat-square&logo=ai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_AI-FF6B35?style=flat-square)
 
 </div>
 
 </td>
+</tr>
+
+<tr>
+
 <td width="50%" valign="top">
 
 <h3 align="center">🤖 AI Dataset Quality Inspector</h3>
@@ -238,32 +243,29 @@ Unfiltered AI system that analyzes resumes and LinkedIn profiles to deliver brut
 
 <br/><br/>
 
-**End-to-End ML Dataset Monitoring Platform**
-
-AI-driven system for detecting data quality issues before they break production models.
+Platform that detects dataset issues before they break production ML models.
 
 <br/>
 
-**🎯 Key Features:**
-- Missing data & bias detection
-- Distribution drift analysis  
-- Research-validated metrics
-- Interactive visual dashboard
+<b>🎯 Features</b>
+
+- Missing data detection
+- Bias & distribution drift analysis
+- Research-backed metrics
+- Interactive dashboard
 
 <br/>
 
-**⚙️ Tech Stack:**
+<b>⚙️ Tech Stack</b>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
 
 </div>
 
 </td>
-</tr>
 
-<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">🔗 LifeLink</h3>
@@ -274,28 +276,31 @@ AI-driven system for detecting data quality issues before they break production 
 
 <br/><br/>
 
-**Blockchain-based Disaster Relief Tracker**
-
-Transparent fund tracking system for disaster management using blockchain technology.
+Blockchain-based disaster relief tracking system ensuring transparent fund usage.
 
 <br/>
 
-**🎯 Key Features:**
+<b>🎯 Features</b>
+
 - Smart contract integration
-- Real-time relief monitoring  
-- Transparent accountability
+- Transparent relief tracking
+- Real-time monitoring
 
 <br/>
 
-**⚙️ Tech Stack:**
+<b>⚙️ Tech Stack</b>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square)
 
 </div>
 
 </td>
+</tr>
+
+<tr>
+
 <td width="50%" valign="top">
 
 <h3 align="center">🎬 Squad 124 Portfolio</h3>
@@ -306,31 +311,20 @@ Transparent fund tracking system for disaster management using blockchain techno
 
 <br/><br/>
 
-**Dynamic Team Portfolio Website**
-
-Modern team showcase with Netflix-inspired UI and smooth interactions.
+Netflix-inspired team portfolio website with dynamic filtering and animations.
 
 <br/>
 
-**🎯 Key Features:**
-- Fully responsive design
-- JavaScript filtering system
-- Smooth animations
+<b>⚙️ Tech Stack</b>
 
-<br/>
-
-**⚙️ Tech Stack:**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square)
 
 </div>
 
 </td>
-</tr>
 
-<tr>
 <td width="50%" valign="top">
 
 <h3 align="center">📊 GitHub Repo Analyzer</h3>
@@ -341,95 +335,28 @@ Modern team showcase with Netflix-inspired UI and smooth interactions.
 
 <br/><br/>
 
-**Repository Analysis Platform**
-
-Full-stack app analyzing GitHub repos with modern glassmorphism UI and production-level architecture.
+Full-stack repository analytics platform with modern UI and structured insights.
 
 <br/>
 
-**🎯 Key Features:**
-- Modern glassmorphism design
-- Structured repository insights
-- Progressive Web App ready
-- SEO-optimized with meta tags
+<b>⚙️ Tech Stack</b>
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite)
 
 <br/>
 
-**⚙️ Tech Stack:**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-<br/>
-
-**🔗 [Live Demo](https://github-repo-analyzer-by-mayank.vercel.app/)**
+https://github-repo-analyzer-by-mayank.vercel.app/
 
 </div>
 
 </td>
+
 </tr>
 </table>
 
 </div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=radical&hide_border=true&background=0D1117&stroke=667EEA&ring=667EEA&fire=764BA2&currStreakLabel=764BA2" />
-
-<br/><br/>
-
-**📈 2024-2025 Highlights:**
-- 🎯 Participated in Smart India Hackathon 2025
-- 🏆 IT Wizard Awardee
-- 💻 Building production-ready applications
-- 🚀 Growing in backend architecture & system design
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<img align="right" alt="Learning" width="350" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
-
-## 🌱 Currently Leveling Up
-
-**🎯 Main Focus Areas:**
-
-- **Backend Architecture**
-  - Microservices patterns
-  - RESTful API design
-  - Database optimization
-
-- **Code Quality**
-  - Clean code principles
-  - Design patterns
-  - Test-driven development
-
-- **Career Growth**
-  - System design prep
-  - Building production apps
-  - Open source contributions
-
-<br clear="right"/>
-
-**📈 2025 Goals:**
-- ✨ Land a meaningful internship
-- 🚀 Ship 5+ production-ready projects
-- 🤝 Contribute to major open-source
-- 📚 Master scalable architectures
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## 🤝 Let's Connect & Collaborate
 
 <div align="center">
