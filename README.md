@@ -177,6 +177,7 @@ Worked on real issues, submitted pull requests, and collaborated with maintainer
 - Fixed grammar and clarity in validation error messages
 - Improved utility function documentation and typing
 - Successfully merged pull requests reviewed by maintainers
+- Refactor CyclicBoosting to eliminate feature validation code duplication
 
 <br/>
 
@@ -192,6 +193,7 @@ Worked on real issues, submitted pull requests, and collaborated with maintainer
 
 - https://github.com/sktime/skpro/pull/833  
 - https://github.com/sktime/skpro/pull/813
+- https://github.com/sktime/skpro/pull/917
 
 </div>
 
