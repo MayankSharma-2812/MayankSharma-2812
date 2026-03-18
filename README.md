@@ -166,18 +166,19 @@ I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
 
 <br/><br/>
 
-Contributor to the **sktime ecosystem**, improving code quality and developer experience in production-grade machine learning libraries.
+Contributor to the **sktime ecosystem**, improving correctness, code quality, and developer experience in production-grade probabilistic machine learning libraries.
 
-Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows.
+Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows (CI, pre-commit, reviews).
 
 <br/>
 
 <b>🎯 Key Contributions</b>
 
-- Fixed grammar and clarity in validation error messages
-- Improved utility function documentation and typing
-- Successfully merged pull requests reviewed by maintainers
-- Refactor CyclicBoosting to eliminate feature validation code duplication
+- Fixed correctness issues in probabilistic components (metrics & estimators)
+- Improved grammar, clarity, and consistency in validation error messages
+- Enhanced documentation and typing in utility functions
+- Refactored CyclicBoosting to eliminate duplicated feature validation logic
+- Successfully delivered multiple PRs merged after maintainer review
 
 <br/>
 
@@ -192,8 +193,9 @@ Worked on real issues, submitted pull requests, and collaborated with maintainer
 <b>🔗 Pull Requests</b>
 
 - https://github.com/sktime/skpro/pull/833  
-- https://github.com/sktime/skpro/pull/813
-- https://github.com/sktime/skpro/pull/917
+- https://github.com/sktime/skpro/pull/813  
+- https://github.com/sktime/skpro/pull/917  
+- https://github.com/sktime/skpro/pull/934  
 
 </div>
 
