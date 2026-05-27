@@ -1,377 +1,246 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Mayank%20Sharma&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Full-Stack%20Developer%20|%20Problem%20Solver%20|%20Builder&descAlignY=55&descSize=20)
+# Mayank Sharma
+
+**Full-Stack Engineer · Backend Systems · Open Source**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mayank-sharma-7b277b312)
+[![Email](https://img.shields.io/badge/Email-msharma.dev.in@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:msharma.dev.in@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-MayankSharma--2812-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/MayankSharma-2812)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-667eea?style=flat-square)](https://github.com/MayankSharma-2812)
+
+B.Tech CSE (Kalvium × JECRC) · Jaipur, India · Open to internships in backend / full-stack engineering
 
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Mayank+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%92%BB;Building+Real-World+Systems+%F0%9F%9A%80;Learning+by+Doing+%26+Breaking+%F0%9F%94%A7;Clean+Code+Enthusiast+%E2%9C%A8" alt="Typing SVG" />
-</p>
+---
 
-<p align="center">  
-  <img src="https://komarev.com/ghpvc/?username=MayankSharma-2812&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/MayankSharma-2812?label=Followers&style=for-the-badge&color=764ba2&logo=github" alt="GitHub Followers" />
-  <img src="https://img.shields.io/badge/Focus-Backend%20Architecture-667eea?style=for-the-badge" alt="Focus" />
-</p>
+## About
 
-<br/>
+I'm a full-stack engineer who builds things end-to-end — from FastAPI backends and React dashboards to Docker-based infrastructure and LLM pipelines. My focus is on **developer tooling**, **AI-integrated systems**, and **backend architecture that holds up under real conditions**.
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+I don't just follow tutorials. I pick problems I actually want solved — a self-hosted AI OS that handles my WhatsApp and Gmail, an ML dataset validator that catches bias before deployment, a GitHub intelligence platform that makes codebases readable at a glance. Then I build them, break them, and figure out why.
 
-## 🙋‍♂️ About Me
+I contribute to open source when I find something genuinely worth fixing. I'm currently going deep on **Rust**, **system design**, and **Linux internals** — not because they're trendy, but because understanding systems at that level makes every other layer of the stack make more sense.
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+---
 
-**👨‍💻 Who Am I?**
+## Engineering Philosophy
 
-I'm **Mayank Sharma**, a Full-Stack Developer from Pilāni, Rajasthan 🇮🇳
+> *"Understand the system one layer below the one you're working in."*
 
-🎓 **Education:** B.Tech CSE (Software Product Engineering) @ Kalvium x JECRC  
-🏆 **Achievements:** SIH 2025 Participant | IT Wizard Awardee  
-💭 **Philosophy:** Learn → Build → Break → Fix → Repeat 🔄  
-🚀 **Mission:** Building scalable systems that make an impact
+A few things I actually believe after building real projects:
 
-<br clear="right"/>
+- **Correctness before cleverness.** A system that does the right thing slowly is better than a fast one that's subtly wrong. I learned this fixing a loss computation bug in skpro where `log_pdf` was silently used instead of `pdf` — the code ran fine, but every result was wrong.
+- **Abstractions should earn their complexity.** Every layer of indirection has a cost. I build the simplest thing that handles the real constraint, then add abstraction when the problem demands it.
+- **Local-first where possible.** METHER OS is self-hosted by design — I wanted to understand what it actually takes to run AI infrastructure on your own hardware, not just call an API.
+- **Docs and error messages are code.** A confusing error message is a bug. Fixing grammar in skpro's validation messages wasn't pedantic — it's what users actually read when things break.
+- **Metrics over intuition.** The 65% triage reduction in Dataset Inspector wasn't a guess. I measured it. If you can't measure it, you don't know if it worked.
 
-### ⚡ What I Do
+---
 
-- 🔨 Build **production-ready applications** that solve real problems
-- 🧠 Focus on **clean architecture** & **scalable backend systems**
-- 🎯 Create **intentional UIs** with great user experience
-- 📚 Learn through **hands-on projects** and experimentation
-- 🌟 Open to **internships** and **collaborative projects**
+## What I'm Building Now
 
-<br/>
+| Project | What it does | Status |
+|---|---|---|
+| **METHER OS** | Self-hosted AI OS — voice, WhatsApp, Gmail, calendar, local LLM routing | 🟢 Active |
+| **AI Dataset Quality Inspector** | Statistical drift detection and ML fairness auditing platform | 🟢 Active |
+| **GitHub Repo Analyzer** | Repository intelligence — metrics, dependency analysis, AI summaries | 🟡 Maintaining |
 
-<div align="center">
+---
 
-## 🛠️ Tech Arsenal
+## Projects
 
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
-<br>HTML5
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
-<br>CSS3
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" />
-<br>JavaScript
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-<br>React
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-<br>Node.js
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
-<br>Express
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-<br>Python
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
-<br>C++
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
-<br>C
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
-<br>MySQL
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-<br>Git
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
-<br>GitHub
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
-<br>VS Code
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
-<br>Postman
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=solidity" width="48" height="48" alt="Solidity" />
-<br>Solidity
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
-<br>WordPress
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-<br>Kali Linux
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy" />
-<br>NumPy
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" />
-<br>Pandas
-</td>
-<td align="center" width="96">
-<img src="https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png" width="48" height="48" alt="Matplotlib" />
-<br>Matplotlib
-</td>
-<td align="center" width="96">
-<img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" width="48" height="48" alt="AI" />
-<br>Prompt Eng.
-</td>
-</tr>
-</table>
+### 🤖 METHER OS
+> A self-hosted personal AI operating system. Not a wrapper around ChatGPT — a real orchestration platform running on local hardware with 14 integrated tools.
 
-**🔐 Cybersecurity:** WiFi Security & Penetration Testing (Kali Linux)  
-**📊 Data Visualization:** Matplotlib, Seaborn (Beginner)  
-**🤖 AI Tools:** Prompt Engineering & LLM Optimization
+**The problem it solves:** Managing async life (messages, emails, meetings, reminders) across 5+ apps is cognitively expensive. METHER OS routes all of it through a single orchestration layer with persistent context.
 
-</div>
+**Architecture decisions:**
+- **Monorepo structure** — 14 agent tools, FastAPI core, React dashboard, voice sidecar, WhatsApp bridge, all sharing typed interfaces. Made it painful to set up, but made cross-service orchestration trivial.
+- **Local LLM routing** — Routes queries to the right model based on task type (fast local model for quick lookups, larger model for complex reasoning). Avoids unnecessary API costs.
+- **SQLite for persistent memory** — Chose SQLite over Redis for memory persistence because the access pattern is mostly read-heavy and the simplicity of a single file backup matters for self-hosted reliability.
+- **Async orchestration across Python + Node.js runtimes** — Python handles ML/AI workloads (Whisper STT, Piper TTS, LLM inference), Node.js handles real-time event streams (WhatsApp bridge, WebSocket server). FastAPI acts as the coordination layer.
 
-<br/>
+**What I actually built:**
+- Voice interaction pipeline: Whisper STT → LLM → Piper TTS, under 2s end-to-end on local hardware
+- WhatsApp automation: reads, categorizes, and drafts responses with context from memory
+- Gmail workflows: automated triage, reply drafting, label management via Google Workspace APIs
+- Calendar scheduling: natural language → Google Calendar event creation
+- Terminal execution and filesystem operations as agent tools
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+`FastAPI` `React` `TypeScript` `Docker` `Linux` `SQLite` `WebSockets` `Whisper` `Python`
 
-## 🚀 Featured Projects
+---
 
-<div align="center">
+### 📊 AI Dataset Quality Inspector
+> A dataset validation platform that catches problems before they reach model training.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**The problem it solves:** ML engineers waste hours manually checking datasets for drift, bias, and schema inconsistencies. This platform automates that triage with research-backed statistical methods.
 
-<h3 align="center">🧠 sktime / skpro Contributor</h3>
+**Architecture decisions:**
+- **FastAPI backend with async validation workers** — each statistical check runs as an independent async task, so a slow KS-test doesn't block the schema preview
+- **Local caching layer** — caches schema previews and validation results per dataset hash, reducing repeated validation runs on unchanged data
+- **Modular check pipeline** — each validator (drift, fairness, missing values, schema, distribution) is a pluggable module. Adding a new check doesn't touch existing validation logic.
 
-<div align="center">
+**Statistical methods implemented:**
+- KS-test for distribution drift detection between train/test splits
+- PSI (Population Stability Index) divergence analysis for feature shift
+- EEOC 4/5ths-rule validation for fairness auditing across demographic groups
+- Schema validation with type inference and null pattern detection
 
-<img src="https://img.shields.io/badge/OPEN_SOURCE-4CAF50?style=for-the-badge" />
+**Results:**
+- Reduced manual dataset triage time by an estimated **65%**
+- Expanded automated checks from 2 → **5 statistical validators**
+- Schema preview latency: **< 5ms** with local caching
 
-<br/><br/>
+`FastAPI` `Pandas` `SciPy` `React` `Python`
 
-Contributor to the **sktime ecosystem**, improving correctness, code quality, and developer experience in production-grade probabilistic machine learning libraries.
+---
 
-Worked on real issues, submitted pull requests, and collaborated with maintainers following professional open-source workflows (CI, pre-commit, reviews).
+### 🔍 GitHub Repo Analyzer
+> Repository intelligence platform. Makes unfamiliar codebases readable in seconds.
 
-<br/>
+**What it does:** Takes any public GitHub repo and generates codebase metrics, dependency graphs, language breakdowns, contributor patterns, and AI-assisted summaries. Built for the moment you're dropped into an unknown codebase and need orientation fast.
 
-<b>🎯 Key Contributions</b>
+**Technical decisions:**
+- Local caching of repository metadata to avoid GitHub API rate limits on repeated analysis
+- History restoration workflows so interrupted analysis sessions resume without re-fetching
+- AI summary pipeline that synthesizes README, file structure, and dependency manifest into a plain-English project summary
 
-- Fixed correctness issues in probabilistic components (metrics & estimators)
-- Improved grammar, clarity, and consistency in validation error messages
-- Enhanced documentation and typing in utility functions
-- Refactored CyclicBoosting to eliminate duplicated feature validation logic
-- Successfully delivered multiple PRs merged after maintainer review
+`React` `TypeScript` `Vite` `GitHub API` `Python`
 
-<br/>
+[**Live →**](https://github-repo-analyzer-by-mayank.vercel.app/)
 
-<b>⚙️ Tech Stack</b>
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+### 🔗 LifeLink
+> Blockchain-based disaster relief fund tracker. Built under pressure at Smart India Hackathon 2025.
 
-<br/>
+Transparent, tamper-proof tracking of disaster relief fund flow from donor to recipient using Ethereum smart contracts. Every allocation is on-chain — no black boxes, no manual reconciliation.
 
-<b>🔗 Pull Requests</b>
+- Smart contract integration for immutable fund tracking
+- Real-time monitoring dashboard for relief coordinators
+- Led the team as Team Lead: coordinated frontend/backend split, task distribution, and evaluation presentation
 
-- https://github.com/sktime/skpro/pull/833  
-- https://github.com/sktime/skpro/pull/813  
-- https://github.com/sktime/skpro/pull/917  
-- https://github.com/sktime/skpro/pull/934  
+`Node.js` `Express` `Solidity` `Ethereum` `Web3.js`
 
-</div>
+---
 
-</td>
+### 🔥 AI Profile Roaster
+> Brutally honest career feedback from AI. Analyzes resumes and LinkedIn profiles.
 
-<td width="50%" valign="top">
+Built with Python, Flask, and Groq AI. Supports PDF, DOCX, and plain text input. Generates specific, actionable feedback rather than generic praise.
 
-<h3 align="center">🔥 AI Profile Roaster</h3>
+`Python` `Flask` `Groq AI`
 
-<div align="center">
+---
 
-<img src="https://img.shields.io/badge/BRUTALLY_HONEST_AI-FF4500?style=for-the-badge" />
+### 🎬 Squad 124 Portfolio
+> Netflix-inspired team portfolio with dynamic filtering and scroll animations.
 
-<br/><br/>
+Built purely with HTML, CSS, and vanilla JavaScript — no frameworks. An exercise in understanding what React actually saves you from.
 
-AI-powered system that analyzes resumes and LinkedIn profiles and gives brutally honest career feedback.
+`HTML5` `CSS3` `JavaScript`
 
-<br/>
+---
 
-<b>🎯 Features</b>
+## Open Source — sktime / skpro
 
-- AI career roast generator
-- Resume & LinkedIn analysis
-- Actionable improvement suggestions
-- PDF, DOCX, and text support
+> Contributing to production-grade probabilistic machine learning libraries used by researchers and engineers worldwide.
 
-<br/>
+### What skpro is
+skpro is part of the sktime ecosystem — a Python framework for probabilistic supervised regression and distribution models. It's used in production ML pipelines for forecasting, uncertainty quantification, and distributional prediction.
 
-<b>⚙️ Tech Stack</b>
+### My contributions
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_AI-FF6B35?style=flat-square)
+**Merged PRs:**
 
-</div>
+| PR | Type | Description |
+|---|---|---|
+| [#813](https://github.com/sktime/skpro/pull/813) | Documentation | Fixed typo in docstrings across distribution classes: `"logartihms"` → `"logarithms"` |
+| [#833](https://github.com/sktime/skpro/pull/833) | Code quality | Fixed grammar inconsistency in validation error messages: `"needs to be"` → `"must be"` across multiple files |
+| [#917](https://github.com/sktime/skpro/pull/917) | Refactoring | Eliminated duplicated feature-validation logic in CyclicBoosting — single source of truth for validation rules |
+| [#934](https://github.com/sktime/skpro/pull/934) | Bug fix | Identified and fixed correctness bug: `SquaredDistrLoss` was using `log_pdf` instead of `pdf` in loss computation — values were computed without error but were mathematically incorrect |
 
-</td>
-</tr>
+**Additional contributions:**
+- Improved typing and documentation consistency in utility functions
+- Reported additional bugs during code review with reproduction steps
+- 6+ total PRs across documentation, testing, maintenance, and logic fixes
 
-<tr>
+### What I learned
+Working in a production OSS codebase with strict CI, pre-commit hooks, and maintainer review is a different discipline than solo projects. Every PR has to justify itself, pass automated checks, and survive a real code review. The bar for "good enough" is higher, and that's the point.
 
-<td width="50%" valign="top">
+---
 
-<h3 align="center">🤖 AI Dataset Quality Inspector</h3>
+## Tech Stack
+
+### Languages
+| Language | Level | Where I use it |
+|---|---|---|
+| JavaScript / TypeScript | Strong | Full-stack: React frontends, Node.js services, type-safe APIs |
+| Python | Strong | Backend services, ML tooling, data pipelines, automation |
+| C / C++ | Comfortable | DSA, systems-level understanding, competitive context |
+| Rust | Learning | Systems programming, memory safety — currently working through ownership model |
+| Solidity | Familiar | Smart contracts (LifeLink, exploratory blockchain projects) |
+
+### Frontend
+`React` `Next.js` `TypeScript` `Tailwind CSS` `Framer Motion` `GSAP` `Three.js` `HTML5` `CSS3`
+
+Comfortable building production UIs. Not just styling — state management, performance optimization, accessibility, component architecture.
+
+### Backend
+`Node.js` `Express` `FastAPI` `Flask` `REST APIs` `WebSockets` `Microservices`
+
+Most of my serious work lives here. I care about API design, async patterns, error handling, and building backends that other systems can rely on.
+
+### Databases & Infrastructure
+`MongoDB` `PostgreSQL` `Redis` `SQLite` `Docker` `Linux`
+
+I understand the tradeoffs between these. SQLite when you want reliability and simplicity. PostgreSQL when you need relational guarantees. Redis when you need sub-millisecond reads. MongoDB when your data is genuinely document-shaped.
+
+### Tools & Platforms
+`Git` `GitHub` `Linux` `Docker` `Vercel` `AWS` `Kubernetes` `Postman` `Kali Linux`
+
+### Security & Systems
+Basic penetration testing and WiFi security analysis using Kali Linux. Not a security engineer — but I know enough to not build obviously exploitable systems.
+
+---
+
+## Currently Learning
+
+```
+Rust
+├── Ownership & borrowing model (in progress)
+├── Systems programming patterns
+└── Goal: write a small CLI tool from scratch in Rust
+
+System Design
+├── Distributed systems fundamentals (CAP theorem, consistency models)
+├── Database internals (indexing, query planning, storage engines)
+└── Goal: be able to design and critique any system at an interview level
+
+Linux Internals
+├── Process management, file descriptors, signals
+├── Networking stack (how TCP/IP actually works beneath the socket API)
+└── Goal: understand what Docker is actually doing under the hood
+
+AWS Architecture
+├── EC2, S3, Lambda, RDS — practical usage
+├── VPC networking and IAM patterns
+└── Goal: deploy METHER OS to a cloud instance with proper infra
+```
+
+**Why these four:** Rust and Linux internals are about understanding the layer below what I work in every day. System design is about being able to reason about scale before I build the thing that needs to scale. AWS is just practical — self-hosting is great for learning, but real products live in the cloud.
+
+---
+
+## GitHub Activity
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Applied_AI-FF6B35?style=for-the-badge" />
-
-<br/><br/>
-
-Platform that detects dataset issues before they break production ML models.
-
-<br/>
-
-<b>🎯 Features</b>
-
-- Missing data detection
-- Bias & distribution drift analysis
-- Research-backed metrics
-- Interactive dashboard
-
-<br/>
-
-<b>⚙️ Tech Stack</b>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
-
-</div>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3 align="center">🔗 LifeLink</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Smart_India_Hackathon_2025-FF6B6B?style=for-the-badge" />
-
-<br/><br/>
-
-Blockchain-based disaster relief tracking system ensuring transparent fund usage.
-
-<br/>
-
-<b>🎯 Features</b>
-
-- Smart contract integration
-- Transparent relief tracking
-- Real-time monitoring
-
-<br/>
-
-<b>⚙️ Tech Stack</b>
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square)
-
-</div>
-
-</td>
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-<h3 align="center">🎬 Squad 124 Portfolio</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Netflix_Inspired-E50914?style=for-the-badge" />
-
-<br/><br/>
-
-Netflix-inspired team portfolio website with dynamic filtering and animations.
-
-<br/>
-
-<b>⚙️ Tech Stack</b>
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square)
-
-</div>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3 align="center">📊 GitHub Repo Analyzer</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Production_Ready-667EEA?style=for-the-badge" />
-
-<br/><br/>
-
-Full-stack repository analytics platform with modern UI and structured insights.
-
-<br/>
-
-<b>⚙️ Tech Stack</b>
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite)
-
-<br/>
-
-https://github-repo-analyzer-by-mayank.vercel.app/
-
-</div>
-
-</td>
-
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-## 🔥 Consistency Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true&border_radius=10" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true&border_radius=8" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true" width="48%" />
 
 <br/><br/>
 
@@ -379,56 +248,42 @@ https://github-repo-analyzer-by-mayank.vercel.app/
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-## 🤝 Let's Connect & Collaborate
+## Background
 
-<div align="center">
+**Education**
+- B.Tech CSE (Software Product Engineering) · Kalvium × JECRC University · Expected 2029
+- Focus: full-stack development, backend systems, AI-integrated applications, scalable software engineering
 
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200" />
+**Achievements**
+- 🏆 **IT Wizard Award** — Annual Day 2025, Vidya Niketan Birla Public School — for excellence in computer science
+- 🥇 **Best Website Creator** — 2024, school recognition for web development and design projects
+- 🥈 **2nd rank in Web Development** — IPSC IT Fest 2025
+- 🎯 **5th rank in Video Editing** — IPSC IT Fest 2025
 
-<br/><br/>
+**Leadership**
+- **Team Lead, Smart India Hackathon 2025** — Led multidisciplinary team through problem definition, technical architecture, frontend/backend split, and evaluation presentation
 
-**I'm actively looking for:**
+---
 
-🎯 Internship opportunities in Full-Stack Development  
-🤝 Collaboration on meaningful tech projects  
-💡 Learning from experienced developers  
+## What I'm Looking For
 
-<br/>
+I'm open to **internships** in:
+- Backend engineering (Python, Node.js, distributed systems)
+- Full-stack development (React + any serious backend)
+- Developer tooling or AI infrastructure
 
-**Let's build something amazing together!**
+I work well in teams that move fast, have high standards for code quality, and aren't afraid to go deep on hard problems. I'm not looking for a place to coast — I want to work on things that are actually difficult.
 
-<br/>
-
-<a href="https://linkedin.com/in/mayank-sharma-7b277b312">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:mayank.sharma.s.124@kalvium.community">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/MayankSharma-2812">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<br/><br/>
-
-**💬 "Code that works > Code that looks good"**
-
-<br/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 <div align="center">
 
-### 🌟 If you find my work interesting, feel free to star some repositories!
+**Let's build something worth building.**
 
-<img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="200" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mayank-sharma-7b277b312)
+[![Email](https://img.shields.io/badge/Email-Reach%20out-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:msharma.dev.in@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/MayankSharma-2812)
 
 </div>
-
-<br/>
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=150&section=footer&animation=twinkling)
