@@ -19,9 +19,9 @@ B.Tech CSE (Kalvium × JECRC) · Jaipur, India · Open to internships in backend
 
 I'm a full-stack engineer who builds things end-to-end — from FastAPI backends and React dashboards to Docker-based infrastructure and LLM pipelines. My focus is on **developer tooling**, **AI-integrated systems**, and **backend architecture that holds up under real conditions**.
 
-I don't just follow tutorials. I pick problems I actually want solved — a self-hosted AI OS that handles my WhatsApp and Gmail, an ML dataset validator that catches bias before deployment, a GitHub intelligence platform that makes codebases readable at a glance. Then I build them, break them, and figure out why.
+I don't just follow tutorials. I pick problems I actually want solved — a self-hosted AI OS that handles my WhatsApp and Gmail, a hyperlocal emergency-response network for blood and critical medicine, a RAG tool that makes any GitHub repo instantly queryable. Then I build them, break them, and figure out why.
 
-I contribute to open source when I find something genuinely worth fixing. I'm currently going deep on **Rust**, **system design**, and **Linux internals** — not because they're trendy, but because understanding systems at that level makes every other layer of the stack make more sense.
+I contribute to open source when I find something genuinely worth fixing — production ML libraries and, more recently, React Native itself. I'm currently going deep on **Rust**, **system design**, and **Linux internals** — not because they're trendy, but because understanding systems at that level makes every other layer of the stack make more sense.
 
 ---
 
@@ -43,13 +43,46 @@ A few things I actually believe after building real projects:
 
 | Project | What it does | Status |
 |---|---|---|
+| **LifeLine** | Hyperlocal emergency blood/critical-medicine availability network — MERN, OpenRouter-powered AI | 🟢 Active |
+| **Codebase Q&A** | RAG-based tool that answers natural-language questions about any GitHub repo, with file-level citations | 🟢 Active (4-person team) |
 | **METHER OS** | Self-hosted AI OS — voice, WhatsApp, Gmail, calendar, local LLM routing | 🟢 Active |
-| **AI Dataset Quality Inspector** | Statistical drift detection and ML fairness auditing platform | 🟢 Active |
-| **GitHub Repo Analyzer** | Repository intelligence — metrics, dependency analysis, AI summaries | 🟡 Maintaining |
 
 ---
 
 ## Projects
+
+### 🩸 LifeLine
+> A hyperlocal emergency network connecting people in urgent need of blood or critical medicine with nearby availability — built as my flagship Kalvium end-of-term project, with a heavy system-design emphasis.
+
+**The problem it solves:** Finding blood donors or critical medicine in an emergency is often a frantic, ad-hoc process of phone calls and WhatsApp forwards. LifeLine turns that into a structured, searchable, hyperlocal network.
+
+**Key decisions:**
+- **MERN stack**, chosen as a project constraint to keep the stack familiar while the system design does the heavy lifting
+- **AI integrated via OpenRouter** rather than locking into a single vendor, keeping model choice flexible
+- Built with strong architecture documentation (HLD, LLD, PRD) to hold up under an AI-conducted technical viva
+
+[**Live →**](https://lifeline-amber-omega.vercel.app/) · [**Repo →**](https://github.com/MayankSharma-2812/Lifeline.git)
+
+`React` `Node.js` `Express` `MongoDB` `OpenRouter`
+
+---
+
+### 🔍 Codebase Q&A
+> Paste a GitHub repo URL, ask natural-language questions about the codebase, get answers with file-level citations — powered by a RAG pipeline built from scratch.
+
+**The problem it solves:** Getting oriented in an unfamiliar codebase is slow. Codebase Q&A lets you interrogate a repo directly instead of manually spelunking through files.
+
+**Architecture decisions:**
+- **Manual RAG pipeline** — deliberately not using LangChain initially, to actually understand the retrieval pipeline rather than abstract it away
+- **Supabase Postgres + pgvector** for the vector store, **Ollama** for local LLM + embeddings
+- **Tree-sitter** planned for code-aware chunking rather than naive text splitting
+- Own session + refresh-token auth implementation rather than reaching for a managed auth provider
+
+Built with a 4-person team as a resume project: I own the RAG/embeddings/pgvector pipeline end-to-end, with teammates owning backend infra+auth and frontend.
+
+`Next.js` `TypeScript` `Node.js` `Express` `Supabase` `pgvector` `Ollama`
+
+---
 
 ### 🤖 METHER OS
 > A self-hosted personal AI operating system. Not a wrapper around ChatGPT — a real orchestration platform running on local hardware with 14 integrated tools.
@@ -57,10 +90,12 @@ A few things I actually believe after building real projects:
 **The problem it solves:** Managing async life (messages, emails, meetings, reminders) across 5+ apps is cognitively expensive. METHER OS routes all of it through a single orchestration layer with persistent context.
 
 **Architecture decisions:**
-- **Monorepo structure** — 14 agent tools, FastAPI core, React dashboard, voice sidecar, WhatsApp bridge, all sharing typed interfaces. Made it painful to set up, but made cross-service orchestration trivial.
-- **Local LLM routing** — Routes queries to the right model based on task type (fast local model for quick lookups, larger model for complex reasoning). Avoids unnecessary API costs.
-- **SQLite for persistent memory** — Chose SQLite over Redis for memory persistence because the access pattern is mostly read-heavy and the simplicity of a single file backup matters for self-hosted reliability.
-- **Async orchestration across Python + Node.js runtimes** — Python handles ML/AI workloads (Whisper STT, Piper TTS, LLM inference), Node.js handles real-time event streams (WhatsApp bridge, WebSocket server). FastAPI acts as the coordination layer.
+- **FastAPI + React 19 + asyncio + EventBus** — an event-driven core so tools can react to state changes without tight coupling
+- **SecurityLevel 0/1/2 system** — tiered permissions so higher-risk agent actions (filesystem writes, sending messages) require an explicit trust level
+- **Local LLM routing** — routes queries to the right model based on task type, avoiding unnecessary API costs
+- **SQLite for persistent memory** — chosen over Redis because the access pattern is read-heavy and single-file backup simplicity matters for self-hosted reliability
+- **Async orchestration across Python + Node.js runtimes** — Python handles ML/AI workloads (Whisper STT, Piper TTS, LLM inference), Node.js handles real-time event streams (WhatsApp bridge, WebSocket server)
+- Open-sourced under `mether-os/mether-core`
 
 **What I actually built:**
 - Voice interaction pipeline: Whisper STT → LLM → Piper TTS, under 2s end-to-end on local hardware
@@ -69,107 +104,64 @@ A few things I actually believe after building real projects:
 - Calendar scheduling: natural language → Google Calendar event creation
 - Terminal execution and filesystem operations as agent tools
 
+**Roadmap (v2):** replacing the current voice orb with an Iron Man-style holographic wireframe figure (cyan wireframe aesthetic).
+
 `FastAPI` `React` `TypeScript` `Docker` `Linux` `SQLite` `WebSockets` `Whisper` `Python`
 
 ---
 
+## Earlier / Foundational Projects
+
+Projects from earlier in my building journey — still functional, no longer my primary focus.
+
 ### 📊 AI Dataset Quality Inspector
-> A dataset validation platform that catches problems before they reach model training.
-
-**The problem it solves:** ML engineers waste hours manually checking datasets for drift, bias, and schema inconsistencies. This platform automates that triage with research-backed statistical methods.
-
-**Architecture decisions:**
-- **FastAPI backend with async validation workers** — each statistical check runs as an independent async task, so a slow KS-test doesn't block the schema preview
-- **Local caching layer** — caches schema previews and validation results per dataset hash, reducing repeated validation runs on unchanged data
-- **Modular check pipeline** — each validator (drift, fairness, missing values, schema, distribution) is a pluggable module. Adding a new check doesn't touch existing validation logic.
-
-**Statistical methods implemented:**
-- KS-test for distribution drift detection between train/test splits
-- PSI (Population Stability Index) divergence analysis for feature shift
-- EEOC 4/5ths-rule validation for fairness auditing across demographic groups
-- Schema validation with type inference and null pattern detection
-
-**Results:**
-- Reduced manual dataset triage time by an estimated **65%**
-- Expanded automated checks from 2 → **5 statistical validators**
-- Schema preview latency: **< 5ms** with local caching
+Statistical drift detection and ML fairness auditing platform. KS-test and PSI divergence analysis for feature shift, EEOC 4/5ths-rule fairness auditing, schema validation with type inference. Reduced manual dataset triage time by an estimated 65%; schema preview latency under 5ms with local caching.
 
 `FastAPI` `Pandas` `SciPy` `React` `Python`
 
----
-
 ### 🔍 GitHub Repo Analyzer
-> Repository intelligence platform. Makes unfamiliar codebases readable in seconds.
+Repository intelligence platform — codebase metrics, dependency graphs, language breakdowns, contributor patterns, AI-assisted summaries for any public GitHub repo.
 
-**What it does:** Takes any public GitHub repo and generates codebase metrics, dependency graphs, language breakdowns, contributor patterns, and AI-assisted summaries. Built for the moment you're dropped into an unknown codebase and need orientation fast.
-
-**Technical decisions:**
-- Local caching of repository metadata to avoid GitHub API rate limits on repeated analysis
-- History restoration workflows so interrupted analysis sessions resume without re-fetching
-- AI summary pipeline that synthesizes README, file structure, and dependency manifest into a plain-English project summary
-
-`React` `TypeScript` `Vite` `GitHub API` `Python`
-
-[**Live →**](https://github-repo-analyzer-by-mayank.vercel.app/)
-
----
+`React` `TypeScript` `Vite` `GitHub API` `Python` · [**Live →**](https://github-repo-analyzer-by-mayank.vercel.app/)
 
 ### 🔗 LifeLink
-> Blockchain-based disaster relief fund tracker. Built under pressure at Smart India Hackathon 2025.
-
-Transparent, tamper-proof tracking of disaster relief fund flow from donor to recipient using Ethereum smart contracts. Every allocation is on-chain — no black boxes, no manual reconciliation.
-
-- Smart contract integration for immutable fund tracking
-- Real-time monitoring dashboard for relief coordinators
-- Led the team as Team Lead: coordinated frontend/backend split, task distribution, and evaluation presentation
+Blockchain-based disaster relief fund tracker built under pressure at Smart India Hackathon 2025. Transparent, on-chain tracking of relief fund flow from donor to recipient. Led the team as Team Lead.
 
 `Node.js` `Express` `Solidity` `Ethereum` `Web3.js`
 
----
-
 ### 🔥 AI Profile Roaster
-> Brutally honest career feedback from AI. Analyzes resumes and LinkedIn profiles.
-
-Built with Python, Flask, and Groq AI. Supports PDF, DOCX, and plain text input. Generates specific, actionable feedback rather than generic praise.
+Brutally honest AI career feedback on resumes and LinkedIn profiles, supporting PDF/DOCX/plain text input.
 
 `Python` `Flask` `Groq AI`
 
----
-
 ### 🎬 Squad 124 Portfolio
-> Netflix-inspired team portfolio with dynamic filtering and scroll animations.
-
-Built purely with HTML, CSS, and vanilla JavaScript — no frameworks. An exercise in understanding what React actually saves you from.
+Netflix-inspired team portfolio with dynamic filtering and scroll animations — vanilla HTML/CSS/JS, no frameworks.
 
 `HTML5` `CSS3` `JavaScript`
 
 ---
 
-## Open Source — sktime / skpro
+## Open Source
 
-> Contributing to production-grade probabilistic machine learning libraries used by researchers and engineers worldwide.
-
-### What skpro is
-skpro is part of the sktime ecosystem — a Python framework for probabilistic supervised regression and distribution models. It's used in production ML pipelines for forecasting, uncertainty quantification, and distributional prediction.
-
-### My contributions
+### sktime / skpro
+Contributing to production-grade probabilistic machine learning libraries used in production ML pipelines for forecasting, uncertainty quantification, and distributional prediction — currently pulling **134K+ monthly downloads**.
 
 **Merged PRs:**
 
 | PR | Type | Description |
 |---|---|---|
-| [#813](https://github.com/sktime/skpro/pull/813) | Documentation | Fixed typo in docstrings across distribution classes: `"logartihms"` → `"logarithms"` |
-| [#833](https://github.com/sktime/skpro/pull/833) | Code quality | Fixed grammar inconsistency in validation error messages: `"needs to be"` → `"must be"` across multiple files |
-| [#917](https://github.com/sktime/skpro/pull/917) | Refactoring | Eliminated duplicated feature-validation logic in CyclicBoosting — single source of truth for validation rules |
-| [#934](https://github.com/sktime/skpro/pull/934) | Bug fix | Identified and fixed correctness bug: `SquaredDistrLoss` was using `log_pdf` instead of `pdf` in loss computation — values were computed without error but were mathematically incorrect |
+| [#813](https://github.com/sktime/skpro/pull/813) | Documentation | Fixed typo in docstrings across distribution classes |
+| [#833](https://github.com/sktime/skpro/pull/833) | Code quality | Fixed grammar inconsistency in validation error messages across multiple files |
+| [#917](https://github.com/sktime/skpro/pull/917) | Refactoring | Eliminated duplicated feature-validation logic in CyclicBoosting |
+| [#934](https://github.com/sktime/skpro/pull/934) | Bug fix | Fixed correctness bug where `SquaredDistrLoss` silently used `log_pdf` instead of `pdf` |
 
-**Additional contributions:**
-- Improved typing and documentation consistency in utility functions
-- Reported additional bugs during code review with reproduction steps
-- 6+ total PRs across documentation, testing, maintenance, and logic fixes
+6+ total PRs across documentation, testing, maintenance, and logic fixes.
+
+### React Native
+- [**PR #57487**](https://github.com/facebook/react-native) — fixed a decimal-parsing bug in `transformOrigin`, merged into `react-native:main` and tagged "Shared with Meta"
 
 ### What I learned
-Working in a production OSS codebase with strict CI, pre-commit hooks, and maintainer review is a different discipline than solo projects. Every PR has to justify itself, pass automated checks, and survive a real code review. The bar for "good enough" is higher, and that's the point.
+Working in production OSS codebases with strict CI, pre-commit hooks, and maintainer review is a different discipline than solo projects. Every PR has to justify itself, pass automated checks, and survive a real code review. The bar for "good enough" is higher, and that's the point.
 
 ---
 
@@ -181,29 +173,23 @@ Working in a production OSS codebase with strict CI, pre-commit hooks, and maint
 | JavaScript / TypeScript | Strong | Full-stack: React frontends, Node.js services, type-safe APIs |
 | Python | Strong | Backend services, ML tooling, data pipelines, automation |
 | C / C++ | Comfortable | DSA, systems-level understanding, competitive context |
-| Rust | Learning | Systems programming, memory safety — currently working through ownership model |
+| Rust | Learning | Systems programming, memory safety — currently working through the ownership model |
 | Solidity | Familiar | Smart contracts (LifeLink, exploratory blockchain projects) |
 
 ### Frontend
 `React` `Next.js` `TypeScript` `Tailwind CSS` `Framer Motion` `GSAP` `Three.js` `HTML5` `CSS3`
 
-Comfortable building production UIs. Not just styling — state management, performance optimization, accessibility, component architecture.
-
 ### Backend
 `Node.js` `Express` `FastAPI` `Flask` `REST APIs` `WebSockets` `Microservices`
 
-Most of my serious work lives here. I care about API design, async patterns, error handling, and building backends that other systems can rely on.
-
 ### Databases & Infrastructure
-`MongoDB` `PostgreSQL` `Redis` `SQLite` `Docker` `Linux`
+`MongoDB` `PostgreSQL` `Supabase` `Redis` `SQLite` `pgvector` `Docker` `Linux`
 
-I understand the tradeoffs between these. SQLite when you want reliability and simplicity. PostgreSQL when you need relational guarantees. Redis when you need sub-millisecond reads. MongoDB when your data is genuinely document-shaped.
+### AI / ML Tooling
+`Claude API` `LangChain` `LangGraph` `MCP` `Ollama` `OpenRouter`
 
 ### Tools & Platforms
 `Git` `GitHub` `Linux` `Docker` `Vercel` `AWS` `Kubernetes` `Postman` `Kali Linux`
-
-### Security & Systems
-Basic penetration testing and WiFi security analysis using Kali Linux. Not a security engineer — but I know enough to not build obviously exploitable systems.
 
 ---
 
