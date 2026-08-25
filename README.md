@@ -1,19 +1,32 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Backend+Systems+%26+Open+Source;Building+things+that+actually+work" alt="Typing SVG" />
+
 # Mayank Sharma
 
-**Full-Stack Engineer · Backend Systems · Open Source**
+<p>
+<a href="https://linkedin.com/in/mayank-sharma-7b277b312"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:msharma.dev.in@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/MayankSharma-2812"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mayank-sharma-7b277b312)
-[![Email](https://img.shields.io/badge/Email-msharma.dev.in@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:msharma.dev.in@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-MayankSharma--2812-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/MayankSharma-2812)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-667eea?style=flat-square)](https://github.com/MayankSharma-2812)
-
-B.Tech CSE (Kalvium × JECRC) · Jaipur, India · Open to internships in backend / full-stack engineering
+<p>
+<img src="https://img.shields.io/badge/B.Tech_CSE-Kalvium_×_JECRC-667EEA?style=flat-square" />
+<img src="https://img.shields.io/badge/Based_in-Jaipur,_India-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Open_to-Internships-brightgreen?style=flat-square" />
+</p>
 
 </div>
 
----
+<br/>
+
+<div align="center">
+
+**[About](#about)** · **[Philosophy](#engineering-philosophy)** · **[Current Projects](#-what-im-building-now)** · **[Open Source](#-open-source)** · **[Stack](#-tech-stack)** · **[Learning](#-currently-learning)**
+
+</div>
+
+<br/>
 
 ## About
 
@@ -23,35 +36,34 @@ I don't just follow tutorials. I pick problems I actually want solved — a self
 
 I contribute to open source when I find something genuinely worth fixing — production ML libraries and, more recently, React Native itself. I'm currently going deep on **Rust**, **system design**, and **Linux internals** — not because they're trendy, but because understanding systems at that level makes every other layer of the stack make more sense.
 
----
+<br/>
 
 ## Engineering Philosophy
 
 > *"Understand the system one layer below the one you're working in."*
 
-A few things I actually believe after building real projects:
+| Principle | What it means in practice |
+|---|---|
+| **Correctness before cleverness** | Fixed a loss computation bug in skpro where `log_pdf` was silently used instead of `pdf` — the code ran fine, but every result was wrong |
+| **Abstractions earn their complexity** | Build the simplest thing that handles the real constraint, then add abstraction when the problem demands it |
+| **Local-first where possible** | METHER OS is self-hosted by design — understanding what it takes to run AI infra on your own hardware, not just call an API |
+| **Docs and error messages are code** | Fixing grammar in skpro's validation messages wasn't pedantic — it's what users actually read when things break |
+| **Metrics over intuition** | The 65% triage reduction in Dataset Inspector wasn't a guess — it was measured |
 
-- **Correctness before cleverness.** A system that does the right thing slowly is better than a fast one that's subtly wrong. I learned this fixing a loss computation bug in skpro where `log_pdf` was silently used instead of `pdf` — the code ran fine, but every result was wrong.
-- **Abstractions should earn their complexity.** Every layer of indirection has a cost. I build the simplest thing that handles the real constraint, then add abstraction when the problem demands it.
-- **Local-first where possible.** METHER OS is self-hosted by design — I wanted to understand what it actually takes to run AI infrastructure on your own hardware, not just call an API.
-- **Docs and error messages are code.** A confusing error message is a bug. Fixing grammar in skpro's validation messages wasn't pedantic — it's what users actually read when things break.
-- **Metrics over intuition.** The 65% triage reduction in Dataset Inspector wasn't a guess. I measured it. If you can't measure it, you don't know if it worked.
+<br/>
 
----
-
-## What I'm Building Now
+## 🚀 What I'm Building Now
 
 | Project | What it does | Status |
 |---|---|---|
-| **LifeLine** | Hyperlocal emergency blood/critical-medicine availability network — MERN, OpenRouter-powered AI | 🟢 Active |
-| **Codebase Q&A** | RAG-based tool that answers natural-language questions about any GitHub repo, with file-level citations | 🟢 Active (4-person team) |
-| **METHER OS** | Self-hosted AI OS — voice, WhatsApp, Gmail, calendar, local LLM routing | 🟢 Active |
+| 🩸 **LifeLine** | Hyperlocal emergency blood/critical-medicine availability network — MERN, OpenRouter-powered AI | ![Active](https://img.shields.io/badge/-Active-brightgreen?style=flat-square) |
+| 🔍 **Codebase Q&A** | RAG-based tool answering natural-language questions about any GitHub repo, with file-level citations | ![Active](https://img.shields.io/badge/-Active_%7C_4--person_team-brightgreen?style=flat-square) |
+| 🤖 **METHER OS** | Self-hosted AI OS — voice, WhatsApp, Gmail, calendar, local LLM routing | ![Active](https://img.shields.io/badge/-Active-brightgreen?style=flat-square) |
 
----
-
-## Projects
+<br/>
 
 ### 🩸 LifeLine
+
 > A hyperlocal emergency network connecting people in urgent need of blood or critical medicine with nearby availability — built as my flagship Kalvium end-of-term project, with a heavy system-design emphasis.
 
 **The problem it solves:** Finding blood donors or critical medicine in an emergency is often a frantic, ad-hoc process of phone calls and WhatsApp forwards. LifeLine turns that into a structured, searchable, hyperlocal network.
@@ -61,13 +73,22 @@ A few things I actually believe after building real projects:
 - **AI integrated via OpenRouter** rather than locking into a single vendor, keeping model choice flexible
 - Built with strong architecture documentation (HLD, LLD, PRD) to hold up under an AI-conducted technical viva
 
-[**Live →**](https://lifeline-amber-omega.vercel.app/) · [**Repo →**](https://github.com/MayankSharma-2812/Lifeline.git)
+<p>
+<a href="https://lifeline-amber-omega.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+<a href="https://github.com/MayankSharma-2812/Lifeline"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" /></a>
+</p>
+<p>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenRouter-8A2BE2?style=flat-square" />
+</p>
 
-`React` `Node.js` `Express` `MongoDB` `OpenRouter`
-
----
+<br/>
 
 ### 🔍 Codebase Q&A
+
 > Paste a GitHub repo URL, ask natural-language questions about the codebase, get answers with file-level citations — powered by a RAG pipeline built from scratch.
 
 **The problem it solves:** Getting oriented in an unfamiliar codebase is slow. Codebase Q&A lets you interrogate a repo directly instead of manually spelunking through files.
@@ -77,14 +98,21 @@ A few things I actually believe after building real projects:
 - **Supabase Postgres + pgvector** for the vector store, **Ollama** for local LLM + embeddings
 - **Tree-sitter** planned for code-aware chunking rather than naive text splitting
 - Own session + refresh-token auth implementation rather than reaching for a managed auth provider
+- Built with a 4-person team: I own the RAG/embeddings/pgvector pipeline end-to-end, with teammates owning backend infra+auth and frontend
 
-Built with a 4-person team as a resume project: I own the RAG/embeddings/pgvector pipeline end-to-end, with teammates owning backend infra+auth and frontend.
+<p>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square" />
+</p>
 
-`Next.js` `TypeScript` `Node.js` `Express` `Supabase` `pgvector` `Ollama`
-
----
+<br/>
 
 ### 🤖 METHER OS
+
 > A self-hosted personal AI operating system. Not a wrapper around ChatGPT — a real orchestration platform running on local hardware with 14 integrated tools.
 
 **The problem it solves:** Managing async life (messages, emails, meetings, reminders) across 5+ apps is cognitively expensive. METHER OS routes all of it through a single orchestration layer with persistent context.
@@ -106,47 +134,52 @@ Built with a 4-person team as a resume project: I own the RAG/embeddings/pgvecto
 
 **Roadmap (v2):** replacing the current voice orb with an Iron Man-style holographic wireframe figure (cyan wireframe aesthetic).
 
-`FastAPI` `React` `TypeScript` `Docker` `Linux` `SQLite` `WebSockets` `Whisper` `Python`
+<p>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+</p>
 
----
+<br/>
 
-## Earlier / Foundational Projects
+<details>
+<summary><b>📦 Earlier / Foundational Projects</b> — click to expand</summary>
 
-Projects from earlier in my building journey — still functional, no longer my primary focus.
+<br/>
 
-### 📊 AI Dataset Quality Inspector
+**📊 AI Dataset Quality Inspector**
 Statistical drift detection and ML fairness auditing platform. KS-test and PSI divergence analysis for feature shift, EEOC 4/5ths-rule fairness auditing, schema validation with type inference. Reduced manual dataset triage time by an estimated 65%; schema preview latency under 5ms with local caching.
-
 `FastAPI` `Pandas` `SciPy` `React` `Python`
 
-### 🔍 GitHub Repo Analyzer
+**🔍 GitHub Repo Analyzer**
 Repository intelligence platform — codebase metrics, dependency graphs, language breakdowns, contributor patterns, AI-assisted summaries for any public GitHub repo.
+`React` `TypeScript` `Vite` `GitHub API` `Python` · [Live →](https://github-repo-analyzer-by-mayank.vercel.app/)
 
-`React` `TypeScript` `Vite` `GitHub API` `Python` · [**Live →**](https://github-repo-analyzer-by-mayank.vercel.app/)
-
-### 🔗 LifeLink
+**🔗 LifeLink**
 Blockchain-based disaster relief fund tracker built under pressure at Smart India Hackathon 2025. Transparent, on-chain tracking of relief fund flow from donor to recipient. Led the team as Team Lead.
-
 `Node.js` `Express` `Solidity` `Ethereum` `Web3.js`
 
-### 🔥 AI Profile Roaster
+**🔥 AI Profile Roaster**
 Brutally honest AI career feedback on resumes and LinkedIn profiles, supporting PDF/DOCX/plain text input.
-
 `Python` `Flask` `Groq AI`
 
-### 🎬 Squad 124 Portfolio
+**🎬 Squad 124 Portfolio**
 Netflix-inspired team portfolio with dynamic filtering and scroll animations — vanilla HTML/CSS/JS, no frameworks.
-
 `HTML5` `CSS3` `JavaScript`
 
----
+</details>
 
-## Open Source
+<br/>
+
+## 🌱 Open Source
 
 ### sktime / skpro
-Contributing to production-grade probabilistic machine learning libraries used in production ML pipelines for forecasting, uncertainty quantification, and distributional prediction — currently pulling **134K+ monthly downloads**.
 
-**Merged PRs:**
+Contributing to production-grade probabilistic machine learning libraries used in production ML pipelines for forecasting, uncertainty quantification, and distributional prediction — currently pulling **134K+ monthly downloads**.
 
 | PR | Type | Description |
 |---|---|---|
@@ -158,44 +191,77 @@ Contributing to production-grade probabilistic machine learning libraries used i
 6+ total PRs across documentation, testing, maintenance, and logic fixes.
 
 ### React Native
-- [**PR #57487**](https://github.com/facebook/react-native) — fixed a decimal-parsing bug in `transformOrigin`, merged into `react-native:main` and tagged "Shared with Meta"
 
-### What I learned
-Working in production OSS codebases with strict CI, pre-commit hooks, and maintainer review is a different discipline than solo projects. Every PR has to justify itself, pass automated checks, and survive a real code review. The bar for "good enough" is higher, and that's the point.
+- **PR #57487** — fixed a decimal-parsing bug in `transformOrigin`, merged into `react-native:main` and tagged "Shared with Meta"
 
----
+> Working in production OSS codebases with strict CI, pre-commit hooks, and maintainer review is a different discipline than solo projects. Every PR has to justify itself, pass automated checks, and survive a real code review. The bar for "good enough" is higher, and that's the point.
 
-## Tech Stack
+<br/>
 
-### Languages
-| Language | Level | Where I use it |
-|---|---|---|
-| JavaScript / TypeScript | Strong | Full-stack: React frontends, Node.js services, type-safe APIs |
-| Python | Strong | Backend services, ML tooling, data pipelines, automation |
-| C / C++ | Comfortable | DSA, systems-level understanding, competitive context |
-| Rust | Learning | Systems programming, memory safety — currently working through the ownership model |
-| Solidity | Familiar | Smart contracts (LifeLink, exploratory blockchain projects) |
+## 🛠 Tech Stack
 
-### Frontend
-`React` `Next.js` `TypeScript` `Tailwind CSS` `Framer Motion` `GSAP` `Three.js` `HTML5` `CSS3`
+**Languages**
+<p>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
+</p>
 
-### Backend
-`Node.js` `Express` `FastAPI` `Flask` `REST APIs` `WebSockets` `Microservices`
+**Frontend**
+<p>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+</p>
 
-### Databases & Infrastructure
-`MongoDB` `PostgreSQL` `Supabase` `Redis` `SQLite` `pgvector` `Docker` `Linux`
+**Backend**
+<p>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+</p>
 
-### AI / ML Tooling
-`Claude API` `LangChain` `LangGraph` `MCP` `Ollama` `OpenRouter`
+**Databases & Infra**
+<p>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+</p>
 
-### Tools & Platforms
-`Git` `GitHub` `Linux` `Docker` `Vercel` `AWS` `Kubernetes` `Postman` `Kali Linux`
+**AI / ML Tooling**
+<p>
+<img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square" />
+<img src="https://img.shields.io/badge/OpenRouter-8A2BE2?style=flat-square" />
+</p>
 
----
+**Tools & Platforms**
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" />
+</p>
 
-## Currently Learning
+<br/>
 
-```
+## 📚 Currently Learning
+
+```text
 Rust
 ├── Ownership & borrowing model (in progress)
 ├── Systems programming patterns
@@ -219,41 +285,42 @@ AWS Architecture
 
 **Why these four:** Rust and Linux internals are about understanding the layer below what I work in every day. System design is about being able to reason about scale before I build the thing that needs to scale. AWS is just practical — self-hosting is great for learning, but real products live in the cloud.
 
----
+<br/>
 
-## GitHub Activity
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MayankSharma-2812&theme=tokyonight&hide_border=true&border_radius=8" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api?username=MayankSharma-2812&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MayankSharma-2812&theme=tokyo-night&hide_border=true" width="95%"/>
+<img src="https://img.shields.io/github/followers/MayankSharma-2812?style=for-the-badge&color=667EEA&labelColor=1a1a1a" />
+<img src="https://img.shields.io/github/stars/MayankSharma-2812?style=for-the-badge&color=667EEA&labelColor=1a1a1a" />
+<img src="https://img.shields.io/github/last-commit/MayankSharma-2812/mether-core?style=for-the-badge&color=667EEA&labelColor=1a1a1a&label=Last%20Commit" />
 
 </div>
 
----
+> *Note: badges above pull live from the GitHub API and stay up. If you want the richer visual stats/streak graphics back, those come from a third-party renderer that occasionally goes down (402 errors) — self-hosting a copy of it is the permanent fix if that matters to you.*
 
-## Background
+<br/>
+
+## 🎓 Background
 
 **Education**
 - B.Tech CSE (Software Product Engineering) · Kalvium × JECRC University · Expected 2029
 - Focus: full-stack development, backend systems, AI-integrated applications, scalable software engineering
 
 **Achievements**
-- 🏆 **IT Wizard Award** — Annual Day 2025, Vidya Niketan Birla Public School — for excellence in computer science
-- 🥇 **Best Website Creator** — 2024, school recognition for web development and design projects
-- 🥈 **2nd rank in Web Development** — IPSC IT Fest 2025
-- 🎯 **5th rank in Video Editing** — IPSC IT Fest 2025
+<p>
+<img src="https://img.shields.io/badge/🏆-IT_Wizard_Award-gold?style=flat-square" />
+<img src="https://img.shields.io/badge/🥇-Best_Website_Creator_2024-silver?style=flat-square" />
+<img src="https://img.shields.io/badge/🥈-2nd_Web_Dev,_IPSC_2025-CD7F32?style=flat-square" />
+<img src="https://img.shields.io/badge/🎯-5th_Video_Editing,_IPSC_2025-blue?style=flat-square" />
+</p>
 
 **Leadership**
 - **Team Lead, Smart India Hackathon 2025** — Led multidisciplinary team through problem definition, technical architecture, frontend/backend split, and evaluation presentation
 
----
+<br/>
 
-## What I'm Looking For
+## 🎯 What I'm Looking For
 
 I'm open to **internships** in:
 - Backend engineering (Python, Node.js, distributed systems)
@@ -262,14 +329,16 @@ I'm open to **internships** in:
 
 I work well in teams that move fast, have high standards for code quality, and aren't afraid to go deep on hard problems. I'm not looking for a place to coast — I want to work on things that are actually difficult.
 
+<br/>
+
 ---
 
 <div align="center">
 
-**Let's build something worth building.**
+### Let's build something worth building.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mayank-sharma-7b277b312)
-[![Email](https://img.shields.io/badge/Email-Reach%20out-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:msharma.dev.in@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/MayankSharma-2812)
+<a href="https://linkedin.com/in/mayank-sharma-7b277b312"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:msharma.dev.in@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/MayankSharma-2812"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
